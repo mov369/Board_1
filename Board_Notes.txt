@@ -1,0 +1,11 @@
+Things to consider when choosing a motor:
+
+RPM:
+To get the RPM from a BLDC motor, look at the KV rating.
+KV x Voltage = RPM
+(e.g. If we want 26000 RPM, and we have a battery that supplies 20V, we need a motor with a KV rating 1300) 
+
+
+ESC (Electronic Speed Controller):
+Should match the Motor and the Battery.
+Likely Will need a servo control signal to fine adjust the speed.
